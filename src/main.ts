@@ -275,4 +275,3 @@ process.on("SIGTERM", () => void core.logger.error("Received SIGTERM signal"))
 	await core.cleanExit()
 }
 
-void doTheThing()
